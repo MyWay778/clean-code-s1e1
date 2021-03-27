@@ -18,9 +18,11 @@ body {
 }
 
 @media (max-width:768px) {
-.header { 
-    text-align: center;
-}
+
+    .header { 
+        text-align: center;
+    }
+
 }
 .main {
     display: block;
@@ -123,6 +125,7 @@ input,button {
     transform: rotateZ(45deg);
     transition: transform 200ms ease-in;
 }
+
 .delete img:hover {
     transform: rotateZ(0);
 }
@@ -138,6 +141,7 @@ input,button {
 #incomplete-tasks .input {
     display:none;
 }
+
 #complete-tasks .edit-mode .input,
 #incomplete-tasks .edit-mode .input {
     display:inline-block;
