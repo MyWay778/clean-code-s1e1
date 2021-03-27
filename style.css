@@ -17,7 +17,7 @@ body {
     font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
 
     .header { 
         text-align: center;
@@ -37,6 +37,7 @@ body {
 .task-row-wrapper {
     display: flex;
 }
+
 #incomplete-tasks, #complete-tasks {
     margin:0;
     padding: 0px;
@@ -44,7 +45,7 @@ body {
 
 /* For all elements */
 input,button {  
-    outline:none;
+    outline: none;
 }
 
 .button {
@@ -139,15 +140,15 @@ input,button {
 /* Edit Task */
 #complete-tasks .input,
 #incomplete-tasks .input {
-    display:none;
+    display: none;
 }
 
 #complete-tasks .edit-mode .input,
 #incomplete-tasks .edit-mode .input {
-    display:inline-block;
-    width:224px
+    display: inline-block;
+    width: 224px
 }
 
 .edit-mode .task_name {
-    display:none;
+    display: none;
 }
